@@ -12,5 +12,6 @@ def display_board()
     board << sp
     j+=1
   end
+  board
 
 end
