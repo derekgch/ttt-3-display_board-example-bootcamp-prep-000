@@ -13,6 +13,6 @@ def display_board()
     j+=1
   end
   board << line
-   puts board
+  puts board
 
 end
