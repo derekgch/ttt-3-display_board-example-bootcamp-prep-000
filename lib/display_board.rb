@@ -7,11 +7,12 @@ def display_board()
   line = "   |   |   \n"
   sp = "-----------\n"
 
-  while j < 3
+  while j <
     board << line
     board << sp
     j+=1
   end
+  board << line
    puts board
 
 end
