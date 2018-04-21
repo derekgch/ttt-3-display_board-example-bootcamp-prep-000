@@ -1,6 +1,6 @@
 # Define a method display_board that prints a 3x3 Tic Tac Toe Board
 def display_board()
-  board = []
+  board = ""
 
   j=0;
 
@@ -8,9 +8,9 @@ def display_board()
   sp = "-----------"
 
   while j < 3 do
-    board << line
-    board << sp
+    board += line
+    board += sp
     j+=1
   end
-  board.join()
+  
 end
