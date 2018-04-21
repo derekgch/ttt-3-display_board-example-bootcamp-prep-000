@@ -4,12 +4,12 @@ def display_board()
 
   j=0;
 
-  line = "   |   |   "
-  sp = "-----------"
+  line = "   |   |   \n"
+  sp = "-----------\n"
 
   while j < 3
-    board += line +"\n"
-    board += sp +"\n"
+    board += line
+    board += sp
     j+=1
   end
    puts board
