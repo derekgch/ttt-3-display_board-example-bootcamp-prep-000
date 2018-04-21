@@ -5,7 +5,7 @@ def display_board()
   j=0;
 
   line = "   |   |   \n"
-  sp = "-----------"
+  sp = "-----------\n"
 
   while j < 3
     board += line
