@@ -8,7 +8,8 @@ def display_board()
   sp = "-----------"
 
   while j < 3 do
-    board << "   "
+    board << line
+    board << sp
     j+=1
   end
 
