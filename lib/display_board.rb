@@ -7,10 +7,11 @@ def display_board()
   line = "   |   |   "
   sp = "-----------"
 
-  while j < 3 do
+  while j < 3 
     board += line
     board += sp
     j+=1
   end
   board
+
 end
